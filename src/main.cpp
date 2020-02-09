@@ -13,8 +13,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-
 #define CHANNEL_HOP_INTERVAL_MS   1000;
 
 U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(U8X8_PIN_NONE, 22, 21);
@@ -158,9 +156,11 @@ int wifiCountDevices()
   }
 
   Serial.print(count);
-  displayWifiCount(count);
-  
   Serial.println();
+
+  if (HAS_DISPLAY) {
+    displayWifiCount(count);
+  }
 }
 
 void displayWifiCount(int deviceCount) {

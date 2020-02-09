@@ -2,6 +2,8 @@
 
 #include <esp_wifi.h>
 
+#define HAS_DISPLAY true
+
 #define SUBTYPE_PROBE_REQUEST 0x04
 
 #define WIFI_CHANNEL_COUNT  13
