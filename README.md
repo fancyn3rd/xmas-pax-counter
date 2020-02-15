@@ -1,8 +1,8 @@
 # xmas-pax-counter
 
-Pax counter for my [Interactive xmas tree](https://github.com/fancyn3rd?tab=projects#interactive-xmas-tree) project.
-Its a wifi device counter (wifi-sniffer) for an esp32 microcontroller.
-It is based on the [ESP8266 WifiSniffer](https://github.com/kalanda/esp8266-sniffer)
+Pax counter for my [Interactive xmas tree](https://github.com/fancyn3rd?tab=projects#interactive-xmas-tree) project.    
+Its a wifi device counter (wifi-sniffer) for an esp32 microcontroller.    
+It is based on the [ESP8266 WifiSniffer](https://github.com/kalanda/esp8266-sniffer)    
 Much thanks goes out to [Marzac](https://github.com/Marzac/) who supported me on this project.
 
 The controller scans for wifi devices and when a new device is found, its mac adress is temoprarely stored in an array.
